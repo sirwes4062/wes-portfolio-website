@@ -1,0 +1,94 @@
+.header-and-paragraph h1 {
+  background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+}
+
+.html-font,
+.css-font,
+.js-font,
+.react-font,
+.redux-font,
+.tailwind-font,
+.framer-font,
+.bootstrap-font,
+.git-font {
+  transition: transform 0.3s ease;
+}
+
+.skill-container:hover .html-font {
+  transform: scale(1.2);
+}
+
+.skill-container:hover .css-font {
+  transform: scale(1.2);
+}
+
+.skill-container:hover .js-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .react-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .redux-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .tailwind-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .bootstrap-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .git-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .framer-font {
+  transform: scale(1.2);
+}
+
+.skill-container:hover {
+  border: 1px solid rgb(152, 105, 248);
+  background: #7142d05b;
+  color: #560fe3;
+}
+
+.html-font {
+  color: #e34f26;
+}
+
+.css-font {
+  color: #1572b6;
+}
+
+.js-font {
+  color: #f7df1e;
+}
+
+.react-font {
+  color: #61dafb;
+}
+
+.redux-font {
+  color: #764abc;
+}
+
+.tailwind-font {
+  color: #38bdf8;
+}
+
+.bootstrap-font {
+  color: #7952b3;
+}
+
+.git-font {
+  color: #f05032;
+}
+
+.framer-font {
+  color: #f24e1e;
+}
+
+.fortran-font {
+  color: #734f96;
+}

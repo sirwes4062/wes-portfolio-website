@@ -1,0 +1,50 @@
+.Experience-Eduction-Container {
+  background: #050709;
+}
+
+.badge-icon {
+  font-size: 3rem;
+  color: rgb(152, 105, 248);
+}
+
+.graduation-icon {
+  font-size: 3rem;
+  color: rgb(152, 105, 248);
+}
+
+.experience-heading h1 {
+  font-size: 3rem;
+  background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.education-heading h1 {
+  font-size: 3rem;
+  background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.exprience-no {
+  height: 9rem;
+  background: #140c1c;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out;
+   overflow: hidden;
+}
+
+.exprience-no:hover {
+  background-color: #824eeb95;
+}
+
+.experience-header {
+  color: #8750f7;
+}
+
+.experience-paragraph {
+  color: #ffffff;
+}

@@ -1,0 +1,140 @@
+:root {
+  --white-color: #f3f2f3;
+}
+
+.Navbar-Container {
+  height: 5rem;
+
+  background: #0f0715;
+  width: 100%;
+}
+
+.brand-logo-email {
+  height: 100%;
+  width: 30%;
+}
+.brand-logo {
+  width: 7rem;
+  height: 3rem;
+}
+.brand-email h1 {
+  font-weight: 800;
+}
+
+.email {
+  color: #f3f2f3;
+}
+
+.Nav-links {
+  width: 30%;
+}
+
+.Nav-links li {
+  font-weight: 500;
+  color: #f3f2f3;
+  font-weight: 600;
+}
+
+.hamburger-hire {
+  width: 14rem;
+}
+
+.hamburger {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.one {
+  width: 85%;
+  height: 15%;
+  background: #f3f2f3;
+  margin-left: auto;
+}
+.two {
+  width: 100%;
+  height: 15%;
+  background: #f3f2f3;
+}
+.three {
+  width: 70%;
+  height: 15%;
+  background-color: #f3f2f3;
+  margin-left: auto;
+}
+
+.plus-drop {
+  color: #f3f2f3;
+  font-size: 2rem;
+}
+
+.navbar-dropdown {
+  width: 100%;
+  height: 100vh;
+}
+
+.hire-button {
+  width: 9rem;
+  height: 3rem;
+  background-image: linear-gradient(90deg, rgb(124, 73, 228), rgb(53, 27, 103));
+  color: #f3f2f3;
+  font-weight: 800;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.hire-button:hover {
+  background: rgb(124, 73, 228);
+}
+
+.nav-underline {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.nav-underline:before,
+.nav-underline:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 0;
+  background-color: rgb(124, 73, 228);
+  transition: 0.5s;
+}
+
+.nav-underline:after {
+  left: 0;
+  bottom: -10px;
+}
+.nav-underline:before {
+  right: 0;
+  top: -10px;
+}
+
+.nav-underline:hover:after {
+  width: 100%;
+}
+
+/* border color of input */
+/* #22272c */
+
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #78297f;
+  outline: none;
+}
+
+input,
+textarea {
+  border: 1px solid #22272c;
+}
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+select{
+  outline: none;
+}
