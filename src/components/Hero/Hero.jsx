@@ -172,12 +172,12 @@ const Hero = () => {
                 duration: 0.3,
                 ease: "easeInOut",
               }}>
-              Download CV <FiDownload className="" />
+              Download CV <FiDownload className="ml-1" />
             </motion.div>
 
-            <div className="flex items-center mt-4 md:sm-0 ">
+            <div className="flex  mt-4 md:sm-0">
               <motion.div
-                className="linkone"
+                className="linkone-small"
                 whileHover={{
                   backgroundColor: "rgb(152, 105, 248)",
                   color: "white",
@@ -189,7 +189,7 @@ const Hero = () => {
               </motion.div>
 
               <motion.div
-                className="linkone"
+                className="linkone-small "
                 whileHover={{
                   backgroundColor: "rgb(152, 105, 248)",
                   color: "white",
@@ -200,7 +200,7 @@ const Hero = () => {
                 <FaLinkedinIn />
               </motion.div>
               <motion.div
-                className="linkone"
+                className="linkone-small"
                 whileHover={{
                   backgroundColor: "rgb(152, 105, 248)",
                   color: "white",
@@ -211,7 +211,7 @@ const Hero = () => {
                 <FaFacebookF />
               </motion.div>
               <motion.div
-                className="linkone"
+                className="linkone-small"
                 whileHover={{
                   backgroundColor: "rgb(152, 105, 248)",
                   color: "white",

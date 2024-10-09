@@ -9,12 +9,12 @@ const Messaging = () => {
   return (
     <div
       id="contact"
-      className="message-container flex flex-col lg:flex-row w-full p-8  md:p-24">
+      className="message-container flex flex-col lg:flex-row w-full p-2  md:p-24">
       {/* messaging section */}
-      <div className="message w-full  lg:w-2/3  bg-[rgb(20,12,28)] p-12 rounded-lg ">
+      <div className="message w-full  lg:w-2/3  bg-[rgb(20,12,28)] p-2 md:p-12 rounded-lg ">
         <h1 className="message-header text-5xl  m-8">Let's Work together!</h1>
 
-        <div className="input-container  w-full flex flex-col sm:flex-row justify-between">
+        <div className="input-container   w-full flex flex-col sm:flex-row justify-between">
           <input
             type="text"
             className=" w-full md:w-80 h-14 mb-4 bg-[#050709] rounded-lg text-white border-[#22272c] p-5 sm:mr-6 "
@@ -63,7 +63,7 @@ const Messaging = () => {
       {/* end of messaging section */}
 
       {/* contact section */}
-      <div className="contact-info w-full p-6 flex flex-col justify-center">
+      <div className="contact-info w-full  md:p-6 flex flex-col justify-center mt-8 md:mt-0">
         <div className="logo-phone-no mb-4 flex">
           <div className="logo  w-12 h-12 rounded-full bg-[#8750f7]  flex justify-center items-center mr-4">
             <FiPhoneCall className="text-white text-2xl  " />

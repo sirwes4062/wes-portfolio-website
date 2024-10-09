@@ -34,7 +34,7 @@
   background: #140c1c;
   border-radius: 20px;
   transition: background-color 0.5s ease-in-out;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .exprience-no:hover {
@@ -47,4 +47,8 @@
 
 .experience-paragraph {
   color: #ffffff;
+}
+
+.experience-paragraph-one {
+  color: #8750f7;
 }

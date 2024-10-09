@@ -116,11 +116,8 @@
   width: 100%;
 }
 
-/* border color of input */
-/* #22272c */
 
-input:focus,
-textarea:focus,
+input:focus,textarea:focus,
 select:focus {
   border: 1px solid #78297f;
   outline: none;

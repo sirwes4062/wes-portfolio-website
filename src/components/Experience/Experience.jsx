@@ -7,8 +7,8 @@ const Experience = () => {
   return (
     <div
       id="resume"
-      className="Experience-Eduction-Container flex flex-col md:flex-row py-20 px-8 justify-center w-full">
-      <div className="Experience-section">
+      className="Experience-Eduction-Container flex flex-col md:flex-row py-20 justify-center w-full">
+      <div className="">
         <motion.div
           animate={{
             y: "-20px",
@@ -21,7 +21,7 @@ const Experience = () => {
           }}
           className="experience-heading flex pl-8 ">
           <SlBadge className="badge-icon mr-2 text-white" />
-          <h1 className="text-white text-3xl">My Experience</h1>
+          <h1 className="text-white">My Experience</h1>
         </motion.div>
 
         <motion.div
@@ -41,7 +41,7 @@ const Experience = () => {
           <h1 className="experience-header text-center text-xl  md:text-2xl font-bold">
             2022 Side Hustle Internship
           </h1>
-          <p className="experience-paragraph  sm:text-xl font-bold ">
+          <p className="experience-paragraph-one  sm:text-xl font-bold ">
             Frontend Developer (React js)
           </p>
           <p className="experience-paragraph ">Lagos Nigeria (remote)</p>
@@ -64,7 +64,7 @@ const Experience = () => {
           <h1 className="experience-header text-center text-xl  md:text-2xl  font-bold">
             2022 Certificate of completion
           </h1>
-          <p className="experience-paragraph sm:text-xl font-bold ">
+          <p className="experience-paragraph-one sm:text-xl font-bold ">
             Backend Developer (Node js)
           </p>
           <p className="experience-paragraph ">Zaria,Nigeria Remote</p>
@@ -87,7 +87,7 @@ const Experience = () => {
           <h1 className="experience-header text-center  text-xl  md:text-2xl  font-bold">
             myScholarship.ng internship
           </h1>
-          <p className="experience-paragraph sm:text-xl  font-bold ">
+          <p className="experience-paragraph-one sm:text-xl  font-bold ">
             Frontend developer(React js)
           </p>
           <p className="experience-paragraph ">Lagos,Nigeria (Remote)</p>
@@ -107,7 +107,7 @@ const Experience = () => {
           }}
           className="education-heading flex  pl-8">
           <PiGraduationCapBold className="graduation-icon mr-2   text-white" />
-          <h1 className="text-white text-3xl"> My Education</h1>
+          <h1 className="text-white"> My Education</h1>
         </motion.div>
 
         <motion.div
@@ -128,7 +128,7 @@ const Experience = () => {
           <h1 className="experience-header  text-xl  md:text-2xl font-bold">
             2020 - date
           </h1>
-          <p className="experience-paragraph sm:text-xl  text-center font-bold px-2 ">
+          <p className="experience-paragraph-one sm:text-xl  text-center font-bold px-2 ">
             Electrical Engineering
           </p>
           <p className="experience-paragraph font-bold">
@@ -155,7 +155,7 @@ const Experience = () => {
           <h1 className="experience-header   text-xl  md:text-2xl font-bold">
             2024 - date
           </h1>
-          <p className="experience-paragraph sm:text-xl  text-center font-bold px-2 ">
+          <p className="experience-paragraph-one sm:text-xl  text-center font-bold px-2 ">
             Computing track (Huawei Ict competition)
           </p>
           <p className="experience-paragraph font-bold sm:text-xl ">

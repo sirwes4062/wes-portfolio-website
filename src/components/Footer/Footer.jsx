@@ -7,8 +7,8 @@ const Footer = () => {
       <div>
         <img src={Logo} alt="footer-logo" className=" h-12  mb-6  m-auto" />
 
-        <div className="footer-links">
-          <ul className="flex mb-6 space-x-10">
+        <div className="footer-links  ">
+          <ul className="flex mb-6 space-x-3 md:space-x-10 ">
             <a href="#work">
               <li className="text-white font-bold cursor-pointer">Work.</li>
             </a>
@@ -25,13 +25,15 @@ const Footer = () => {
               <li className="text-white font-bold cursor-pointer">Contact.</li>
             </a>
           </ul>
-          <h1 className="text-center  font-bold   text-[#8734a2]">
-            @2024 All Right reserved...
-            <span className="font-bold text-[#78297f]"> Salifu Williams.</span>
+          <h1 className="text-center  font-bold   text-[#4134f7]">
+            &copy; 2024 All Right reserved by
+            <span className="font-bold text-[#4134f7]]"> Salifu Williams.</span>
           </h1>
         </div>
 
         {/* ARROW TO MOVE BACK TO THE HOME*/}
+
+
       </div>
     </div>
   );

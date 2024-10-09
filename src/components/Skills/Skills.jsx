@@ -12,7 +12,9 @@ import { SiFortran } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div id="skill"  className="w-full p-10 bg-[#0f0715] flex flex-col justify-center items-center ">
+    <div
+      id="skill"
+      className="w-full  px-2 py-4 md:p-10 bg-[#0f0715] flex flex-col justify-center items-center ">
       <div className="header-and-paragraph">
         <h1 className=" text-5xl  font-semibold text-center ">My Skills</h1>
         <p className="text-center text-[#fdfdfe] ">
@@ -22,46 +24,46 @@ const Skills = () => {
       </div>
 
       <div className=" flex flex-wrap gap-8   justify-center items-center mt-8">
-        <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaHtml5 className="html-font w-14 h-14 mb-8" />
           <h1>Html</h1>
         </div>
-        <div className="w-40 h-40   skill-container  cursor-pointer  bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40   skill-container  cursor-pointer  bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaCss3Alt className="css-font  w-14 h-14 mb-8" />
           <h1>CSS</h1>
         </div>
-        <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217]  rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217]  rounded-3xl  flex flex-col  justify-center items-center">
           <FaJs className=" js-font w-14 h-14 mb-8" />
           <h1>Javascript</h1>
         </div>
-        <div className="w-40 h-40 skill-container   cursor-pointer bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40 skill-container   cursor-pointer bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaReact className="react-font  w-14 h-14 mb-8" />
           <h1>React</h1>
         </div>
-        <div className="w-40 h-40  skill-container  cursor-pointer  bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40  skill-container  cursor-pointer  bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <BiLogoRedux className="redux-font  w-14 h-14 mb-8" />
           <h1>Redux</h1>
         </div>
 
-        <div className="w-40 h-40  skill-container   bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40  skill-container   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <BiLogoTailwindCss className="tailwind-font w-14 h-14 mb-8" />
           <h1>Tailwind</h1>
         </div>
-        <div className="w-40 h-40 skill-container cursor-pointer  bg-[#191217]  rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40 skill-container cursor-pointer  bg-[#191217]  rounded-3xl  flex flex-col  justify-center items-center">
           <FaBootstrap className=" bootstrap-font w-14 h-14 mb-8" />
           <h1>Bootstrap</h1>
         </div>
-        <div className="w-40 h-40  skill-container cursor-pointer  bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40  skill-container cursor-pointer  bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaGithub className="git-font w-14 h-14 mb-8" />
           <h1>Git/Github</h1>
         </div>
 
-        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
-          <FiFramer className="framer-font w-14 h-14   mb-6" />
+        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
+          <FiFramer className="framer-font w-14 h-14   mb-8" />
           <h1>Framer motion</h1>
         </div>
 
-        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl mb-16 flex flex-col  justify-center items-center">
+        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <SiFortran className="fortran-font w-14 h-14   mb-6" />
           <h1>Fortran</h1>
         </div>
