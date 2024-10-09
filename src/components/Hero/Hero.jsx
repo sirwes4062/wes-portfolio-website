@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     <div className="relative">
-      <div className="hi-container absolute hidden md:block w-full h-full z-50 ">
+      <div className="hi-container absolute hidden md:block w-full h-full ">
         <motion.h1
           animate={{
             scale: [1, 1.1, 1],
