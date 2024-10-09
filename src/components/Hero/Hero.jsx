@@ -62,9 +62,9 @@ const Hero = () => {
       )}
 
       <div className="Hero-Container pb-12 ">
-        <div className="hero-content flex flex-row flex-wrap relative z-50 ">
+        <div className="hero-content flex flex-row flex-wrap relative z-30 ">
           <div className="name-job  ">
-            <h1 className="Name  mb-3"> I am Williams</h1>
+            <h1 className="Name  mb-3 "> I am Williams</h1>
             <h1 className="Job mb-3  md:text-5xl text-4xl">
               Web Developer + <br /> Programmer
             </h1>
@@ -140,6 +140,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
+
+          {/* big image */}
           <motion.div
             className="big-image mt-12 md:m-0  w-96 h-96"
             initial={{ rotateX: 0 }}

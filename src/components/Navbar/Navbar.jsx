@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <div
         id="home"
-        className="Navbar-Container flex py-4  px-8 justify-between xl:justify-around">
+        className="Navbar-Container flex py-4 px-2 md:px-8 justify-between xl:justify-around ">
         <div className="brand-logo-email flex">
           <a href="#home">
             <img src={Logo} alt="brand-logo" className="brand-logo mr-6" />

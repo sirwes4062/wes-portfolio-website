@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <div
       id="skill"
-      className="w-full  px-2 py-4 md:p-10 bg-[#0f0715] flex flex-col justify-center items-center ">
+      className="w-full  px-2 py-16  md:p-10 bg-[#0f0715] flex flex-col justify-center items-center ">
       <div className="header-and-paragraph">
         <h1 className=" text-5xl  font-semibold text-center ">My Skills</h1>
         <p className="text-center text-[#fdfdfe] ">
@@ -23,7 +23,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className=" flex flex-wrap gap-8   justify-center items-center mt-8">
+      <div className=" flex flex-wrap gap-4 md:gap-8   justify-center items-center mt-8">
         <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaHtml5 className="html-font w-14 h-14 mb-8" />
           <h1>Html</h1>

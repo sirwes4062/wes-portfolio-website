@@ -38,7 +38,6 @@
 
 .Job {
   font-weight: 700;
-
   background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -126,7 +125,7 @@
 
 .navlinks-dropdown-container {
   overflow: hidden;
-  background: #4e14e2;
+  background: rgb(105,61,194);
   width: 100%;
 }
 

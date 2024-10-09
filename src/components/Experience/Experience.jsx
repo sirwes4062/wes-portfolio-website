@@ -20,8 +20,8 @@ const Experience = () => {
             duration: "0.7",
           }}
           className="experience-heading flex pl-8 ">
-          <SlBadge className="badge-icon mr-2 text-white" />
-          <h1 className="text-white">My Experience</h1>
+          <SlBadge className="badge-icon mr-2 text-white text-4xl  md:text-12xl " />
+          <h1 className="text-white text-3xl sm:text-5xl">My Experience</h1>
         </motion.div>
 
         <motion.div
@@ -105,9 +105,9 @@ const Experience = () => {
           transition={{
             duration: "0.7",
           }}
-          className="education-heading flex  pl-8">
-          <PiGraduationCapBold className="graduation-icon mr-2   text-white" />
-          <h1 className="text-white"> My Education</h1>
+          className="education-heading flex  pl-8  mt-8 sm:mt-0 ">
+          <PiGraduationCapBold className="graduation-icon mr-2  text-4xl  md:text-12xl  text-white  " />
+          <h1 className="text-white text-3xl sm:text-5xl"> My Education</h1>
         </motion.div>
 
         <motion.div

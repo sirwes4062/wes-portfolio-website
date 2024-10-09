@@ -3,17 +3,14 @@
 }
 
 .badge-icon {
-  font-size: 3rem;
   color: rgb(152, 105, 248);
 }
 
 .graduation-icon {
-  font-size: 3rem;
   color: rgb(152, 105, 248);
 }
 
 .experience-heading h1 {
-  font-size: 3rem;
   background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -22,7 +19,6 @@
 }
 
 .education-heading h1 {
-  font-size: 3rem;
   background: linear-gradient(rgb(152, 105, 248), rgb(208, 187, 252));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
