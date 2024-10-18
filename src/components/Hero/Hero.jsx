@@ -6,11 +6,10 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io5";
-import Image from "../../assets/image.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Hero = () => {
-  const { togglenav } = useContext(AppContext);
+  const { togglenav, Image } = useContext(AppContext);
 
   return (
     <div className="relative">
@@ -75,6 +74,10 @@ const Hero = () => {
               iure debitis expedita sapiente, laudantium
               <br />
               blanditiis explicabo praesentium non
+              <br />
+              blanditiis explicabo praesentium non
+              <br />
+              iure debitis expedita sapiente
             </p>
 
             <div className="cv-and-social  hidden md:flex">
@@ -140,7 +143,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-
 
           {/* big image */}
           <motion.div
