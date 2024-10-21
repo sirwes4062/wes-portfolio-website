@@ -16,9 +16,13 @@ const App = () => {
   const [loading, setloading] = useState(true);
 
   useEffect(() => {
-    if (Image) {
-      setloading(false);
-    }
+    const timer = setTimeout(() => {
+      if (Image) {
+        setloading(false);
+      }
+    }, 5000);
+
+    return () => clearTimeout(timer);
   }, [Image]);
 
   return loading ? (
