@@ -17,42 +17,52 @@ const Services = () => {
       <div className="quality-list text-white flex flex-col  justify-center  ">
         <div className="list  flex flex-col sm:flex-row justify-around py-3 px-4">
           <div className="flex items-center  ">
-            <h1 className="text-2xl font-bold mr-4">Frontend Dev</h1>
+            <h1 className="text-2xl font-bold mr-4">Frontend Development</h1>
           </div>
 
           <div>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+              I builds the visual aspects of a website or app,
               <br />
-              neque doloremque beatae aliquam debitis quia ipsa minus sapiente
+              focusing on layout, design, and user interaction, using
+              <br />
+              mordern technologies and ensure a responsive and user-friendly
+              <br />
+              experience across devices
             </p>
           </div>
         </div>
 
         <div className=" list flex flex-col sm:flex-row justify-around py-3 px-4">
           <div className="flex items-center ">
-            <h1 className="text-2xl font-bold mr-4">Backend Dev</h1>
+            <h1 className="text-2xl font-bold mr-4">Backend Development</h1>
           </div>
 
           <div>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+              I manages the server, database, and application logic,
               <br />
-              neque doloremque beatae aliquam debitis quia ipsa minus sapiente
+              ensuring data processing, storage, and security.I also the various
+              <br />
+              link that enable functionality that supports the frontend.
             </p>
           </div>
         </div>
 
         <div className=" list flex flex-col sm:flex-row justify-around py-3 px-4">
           <div className="flex items-center ">
-            <h1 className="text-2xl font-bold  mr-4">Fullstack Dev</h1>
+            <h1 className="text-2xl font-bold  mr-4">Fullstack Development</h1>
           </div>
 
           <div className="">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
+              I works on both frontend and backend, bridging user interfaces
               <br />
-              neque doloremque beatae aliquam debitis quia ipsa minus sapiente
+              with underlying data and functionality. I also handle the
+              <br />
+              development, from creating responsive interfaces to managing
+              <br />
+              interactions and data storage.
             </p>
           </div>
         </div>

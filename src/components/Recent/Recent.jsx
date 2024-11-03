@@ -13,29 +13,50 @@ const Recent = () => {
         My Recent Works
       </h1>
 
-      <div className="portfolio-containers flex   flex-wrap justify-center">
-        <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3  m-2">
-          <img src={Ecommerce} alt="project1" className="portfolio-image" />
-        </div>
+      <div className="portfolio-containers flex flex-wrap justify-center cursor-pointer">
+        <a
+          href="https://timbu-new-shop.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer">
+          <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3  m-2">
+            <img src={Ecommerce} alt="project1" className="portfolio-image" />
+          </div>
+        </a>
 
-        <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3   m-2   ">
-          <img
-            src={EasyBankLandingPage}
-            alt="project2"
-            className="portfolio-image"
-          />
-        </div>
-        <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3  m-2 ">
-          <img
-            src={CrowdFundindPage}
-            alt="project3"
-            className="portfolio-image"
-          />
-        </div>
+        <a
+          href="https://my-crowd-funding-page.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer">
+          <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3  m-2    cursor-pointer">
+            <img
+              src={CrowdFundindPage}
+              alt="project3"
+              className="portfolio-image"
+            />
+          </div>
+        </a>
 
-        <div className="portfolio-container  w-full  sm:w-2/3 md:w-1/3  m-2 ">
-          <img src={Portfolio} alt="project3" className="portfolio-image" />
-        </div>
+        <a
+          href="https://effervescent-chaja-12e895.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer">
+          <div className="portfolio-container w-full  sm:w-2/3 md:w-1/3 m-2 cursor-pointer  ">
+            <img
+              src={EasyBankLandingPage}
+              alt="project2"
+              className="portfolio-image"
+            />
+          </div>
+        </a>
+
+        <a
+          href="https://effervescent-chaja-12e895.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer">
+          <div className="portfolio-container  w-full  sm:w-2/3 md:w-1/3  m-2 cursor-pointer">
+            <img src={Portfolio} alt="project3" className="portfolio-image" />
+          </div>
+        </a>
       </div>
     </div>
   );

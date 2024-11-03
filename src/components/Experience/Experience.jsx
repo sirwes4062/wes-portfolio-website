@@ -62,7 +62,7 @@ const Experience = () => {
           }}
           className="exprience-no  flex flex-col justify-center items-center my-6 mr-16 cursor-pointer p-1">
           <h1 className="experience-header text-center text-xl  md:text-2xl  font-bold">
-            2022 Certificate of completion
+            2023 Certificate of completion
           </h1>
           <p className="experience-paragraph-one sm:text-xl font-bold ">
             Backend Developer (Node js)
@@ -132,7 +132,7 @@ const Experience = () => {
             Electrical Engineering
           </p>
           <p className="experience-paragraph font-bold">
-            ( Power and Machines)
+            ( Power Systems and Machines)
           </p>
           <p className="experience-paragraph">Ahmadu bello university,Zaria </p>
         </motion.div>

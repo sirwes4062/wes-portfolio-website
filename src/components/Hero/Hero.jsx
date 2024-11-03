@@ -65,21 +65,20 @@ const Hero = () => {
           <div className="name-job  ">
             <h1 className="Name  mb-3 "> I am Williams</h1>
             <h1 className="Job mb-3  md:text-5xl text-4xl">
-              Web Developer + <br /> Programmer
+              Web Developer + <br /> Programmer and
+              <br />
+              Educationist
             </h1>
-
             <p className="About hidden md:block">
-              Lorem ipsum dolor sit amet consectetur
               <br />
-              iure debitis expedita sapiente, laudantium
+              Passionate web developer skilled in various
               <br />
-              blanditiis explicabo praesentium non
+              technologies and software, aiming to create
               <br />
-              blanditiis explicabo praesentium non
+              high-quality, user-focused digital experiences
               <br />
-              iure debitis expedita sapiente
+              through innovative projects and teamwork.
             </p>
-
             <div className="cv-and-social  hidden md:flex">
               <motion.div
                 className="cv flex justify-center items-center"
@@ -94,52 +93,74 @@ const Hero = () => {
                 Download CV <FiDownload className="ml-2" />
               </motion.div>
 
-              <div className="social-links  flex  justify-center items-center">
-                <motion.div
-                  className="linkone"
-                  whileHover={{
-                    backgroundColor: "rgb(152, 105, 248)",
-                    color: "white",
-                    scale: 1.1,
-                  }}
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}>
-                  <IoLogoGithub />
-                </motion.div>
+              <div className="social-links flex justify-center items-center">
+                <a
+                  href="https://github.com/sirwes4062"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <motion.div
+                    className="linkone"
+                    whileHover={{
+                      backgroundColor: "rgb(152, 105, 248)",
+                      color: "white",
+                      scale: 1.1,
+                    }}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}>
+                    <IoLogoGithub />
+                  </motion.div>
+                </a>
 
-                <motion.div
-                  className="linkone"
-                  whileHover={{
-                    backgroundColor: "rgb(152, 105, 248)",
-                    color: "white",
-                    scale: 1.1,
-                  }}
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}>
-                  <FaLinkedinIn />
-                </motion.div>
-                <motion.div
-                  className="linkone"
-                  whileHover={{
-                    backgroundColor: "rgb(152, 105, 248)",
-                    color: "white",
-                    scale: 1.1,
-                  }}
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}>
-                  <FaFacebookF />
-                </motion.div>
-                <motion.div
-                  className="linkone"
-                  whileHover={{
-                    backgroundColor: "rgb(152, 105, 248)",
-                    color: "white",
-                    scale: 1.1,
-                  }}
-                  initial={{ scale: 0 }}
-                  animate={{ scale: 1 }}>
-                  <FaTwitter />
-                </motion.div>
+                <a
+                  href="www.linkedin.com/in/salifu-williams-7b449026b"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <motion.div
+                    className="linkone"
+                    whileHover={{
+                      backgroundColor: "rgb(152, 105, 248)",
+                      color: "white",
+                      scale: 1.1,
+                    }}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}>
+                    <FaLinkedinIn />
+                  </motion.div>
+                </a>
+
+                <a
+                  href="https://www.facebook.com/sirwes4062/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <motion.div
+                    className="linkone"
+                    whileHover={{
+                      backgroundColor: "rgb(152, 105, 248)",
+                      color: "white",
+                      scale: 1.1,
+                    }}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}>
+                    <FaFacebookF />
+                  </motion.div>
+                </a>
+
+                <a
+                  href="https://x.com/WilliamsSa95115/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <motion.div
+                    className="linkone"
+                    whileHover={{
+                      backgroundColor: "rgb(152, 105, 248)",
+                      color: "white",
+                      scale: 1.1,
+                    }}
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}>
+                    <FaTwitter />
+                  </motion.div>
+                </a>
               </div>
             </div>
           </div>
@@ -161,9 +182,9 @@ const Hero = () => {
           </motion.div>
 
           <div className="text-white pt-6  md:hidden block">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            ullam ab minus. Sed repellendus explicabo quaerat inventore
-            obcaecati
+            Passionate web developer skilled in various technologies and
+            software, aiming to create high-quality, user-focused digital
+            experiences through innovative projects and teamwork.
           </div>
 
           <div className="cv-and-social-bottom  md:hidden flex flex-wrap mt-6 ">
@@ -181,51 +202,72 @@ const Hero = () => {
             </motion.div>
 
             <div className="flex  mt-4 md:sm-0">
-              <motion.div
-                className="linkone-small"
-                whileHover={{
-                  backgroundColor: "rgb(152, 105, 248)",
-                  color: "white",
-                  scale: 1.1,
-                }}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}>
-                <IoLogoGithub />
-              </motion.div>
+              <a
+                href="https://github.com/sirwes4062"
+                target="_blank"
+                rel="noopener noreferrer">
+                <motion.div
+                  className="linkone-small"
+                  whileHover={{
+                    backgroundColor: "rgb(152, 105, 248)",
+                    color: "white",
+                    scale: 1.1,
+                  }}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}>
+                  <IoLogoGithub />
+                </motion.div>
+              </a>
 
-              <motion.div
-                className="linkone-small "
-                whileHover={{
-                  backgroundColor: "rgb(152, 105, 248)",
-                  color: "white",
-                  scale: 1.1,
-                }}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}>
-                <FaLinkedinIn />
-              </motion.div>
-              <motion.div
-                className="linkone-small"
-                whileHover={{
-                  backgroundColor: "rgb(152, 105, 248)",
-                  color: "white",
-                  scale: 1.1,
-                }}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}>
-                <FaFacebookF />
-              </motion.div>
-              <motion.div
-                className="linkone-small"
-                whileHover={{
-                  backgroundColor: "rgb(152, 105, 248)",
-                  color: "white",
-                  scale: 1.1,
-                }}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}>
-                <FaTwitter />
-              </motion.div>
+              <a
+                href="www.linkedin.com/in/salifu-williams-7b449026b"
+                target="_blank"
+                rel="noopener noreferrer">
+                <motion.div
+                  className="linkone-small "
+                  whileHover={{
+                    color: "white",
+                    scale: 1.1,
+                  }}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}>
+                  <FaLinkedinIn />
+                </motion.div>
+              </a>
+
+              <a
+                href="https://www.facebook.com/sirwes4062/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <motion.div
+                  className="linkone-small"
+                  whileHover={{
+                    backgroundColor: "rgb(152, 105, 248)",
+                    color: "white",
+                    scale: 1.1,
+                  }}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}>
+                  <FaFacebookF />
+                </motion.div>
+              </a>
+
+              <a
+                href="https://x.com/WilliamsSa95115/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <motion.div
+                  className="linkone-small"
+                  whileHover={{
+                    backgroundColor: "rgb(152, 105, 248)",
+                    color: "white",
+                    scale: 1.1,
+                  }}
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}>
+                  <FaTwitter />
+                </motion.div>
+              </a>
             </div>
           </div>
         </div>
