@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div
       id="resume"
-      className="Experience-Eduction-Container flex flex-col md:flex-row py-20 justify-center w-full">
+      className="Experience-Education-Container flex flex-col md:flex-row py-20 justify-center w-full">
       <div className="">
         <motion.div
           animate={{
