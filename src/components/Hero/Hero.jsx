@@ -6,10 +6,11 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io5";
+import Image from "../../assets/image.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Hero = () => {
-  const { togglenav, Image } = useContext(AppContext);
+  const { togglenav } = useContext(AppContext);
 
   return (
     <div className="relative">

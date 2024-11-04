@@ -8,22 +8,20 @@ import Skills from "./components/Skills/Skills";
 import Messaging from "./components/Messaging/Messaging";
 import Footer from "./components/Footer/Footer";
 import Loading from "./components/Loading/Loading.jsx";
-import { useContext, useState, useEffect } from "react";
-import { AppContext } from "./components/AppProvider.jsx";
+import { useState, useEffect } from "react";
+// import { AppContext } from "./components/AppProvider.jsx";
 
 const App = () => {
-  const { Image } = useContext(AppContext);
+  // const { Image } = useContext(AppContext);
   const [loading, setloading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      if (Image) {
-        setloading(false);
-      }
+      setloading(false);
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [Image]);
+  }, []);
 
   return loading ? (
     <Loading />
