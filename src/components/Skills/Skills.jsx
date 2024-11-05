@@ -23,7 +23,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className=" flex flex-wrap gap-4 md:gap-8   justify-center items-center mt-8">
+      <div className=" flex flex-wrap gap-4 md:gap-8  justify-center items-center mt-8">
         <div className="w-40 h-40  skill-container   cursor-pointer bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
           <FaHtml5 className="html-font w-14 h-14 mb-8" />
           <h1>Html</h1>

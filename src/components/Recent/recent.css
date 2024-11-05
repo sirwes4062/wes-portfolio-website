@@ -2,11 +2,8 @@
   background: var(--deep-bg-color);
   width: 100%;
   padding-bottom: 5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+ 
 }
-
-
 
 .portfolio-container {
   padding: 3%;
@@ -14,9 +11,4 @@
   background: rgb(20, 12, 28);
   object-fit: cover;
   overflow: hidden;
-  border-radius: 15px;
 }
-
-
-
-

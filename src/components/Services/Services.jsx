@@ -66,6 +66,22 @@ const Services = () => {
             </p>
           </div>
         </div>
+
+        <div className=" list flex flex-col sm:flex-row justify-around py-3 px-4">
+          <div className="flex items-center ">
+            <h1 className="text-2xl font-bold mr-4">Educational Services</h1>
+          </div>
+
+          <div>
+            <p>
+              I also reder Educational services to College Undergraduate
+              <br />
+              Undergraduate which include courses Engineering Mathematics
+              <br />
+              ,Circuit theory and Analysis and Fortran programming language
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

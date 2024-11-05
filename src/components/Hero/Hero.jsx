@@ -50,10 +50,18 @@ const Hero = () => {
             }}
             className="navlinks-dropdown-container pl-8 py-10 lg:hidden absolute z-50 ">
             <ul className="Nav-links  lg:flex justify-center items-center gap-4">
-              <li className="nav-underline cursor-pointer ">Works</li>
-              <li className="nav-underline cursor-pointer ">Resume</li>
-              <li className="nav-underline cursor-pointer ">Skills </li>
-              <li className="nav-underline cursor-pointer ">Contact</li>
+              <li className="nav-underline cursor-pointer ">
+                <a href="#work">Works</a>
+              </li>
+              <li className="nav-underline cursor-pointer ">
+                <a href="#resume">Resume</a>
+              </li>
+              <li className="nav-underline cursor-pointer ">
+                <a href="#skill">Skills</a>
+              </li>
+              <li className="nav-underline cursor-pointer ">
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </motion.div>
         </AnimatePresence>
@@ -80,19 +88,24 @@ const Hero = () => {
               <br />
               through innovative projects and teamwork.
             </p>
+
             <div className="cv-and-social  hidden md:flex">
-              <motion.div
-                className="cv flex justify-center items-center"
-                whileHover={{
-                  backgroundColor: "rgb(152, 105, 248)",
-                  color: "white",
-                }}
-                transition={{
-                  duration: 0.3,
-                  ease: "easeInOut",
-                }}>
-                Download CV <FiDownload className="ml-2" />
-              </motion.div>
+              <a
+                href="src/assets/recentCv.pdf"
+                download="Salifu-Williams-CV.pdf">
+                <motion.div
+                  className="cv flex justify-center items-center"
+                  whileHover={{
+                    backgroundColor: "rgb(152, 105, 248)",
+                    color: "white",
+                  }}
+                  transition={{
+                    duration: 0.3,
+                    ease: "easeInOut",
+                  }}>
+                  Download CV <FiDownload className="ml-2" />
+                </motion.div>
+              </a>
 
               <div className="social-links flex justify-center items-center">
                 <a

@@ -17,3 +17,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.hover-container {
+  background: linear-gradient(to right,rgb(133, 100, 197), rgb(100, 49, 212));
+
+}
+
+
+
+
+/* background: linear-gradient(rgb(163, 51, 249)), rgb(87, 6, 149); */
