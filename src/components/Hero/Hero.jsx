@@ -7,6 +7,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io5";
 import Image from "../../assets/image.png";
+import CV from "../../assets/recentCv.pdf";
+
 import { AnimatePresence, motion } from "framer-motion";
 
 const Hero = () => {
@@ -90,7 +92,7 @@ const Hero = () => {
             </p>
 
             <div className="cv-and-social  hidden md:flex">
-              <a href="public/recentCv.pdf" download="recentCV.pdf">
+              <a href={CV} download>
                 <motion.div
                   className="cv flex justify-center items-center"
                   whileHover={{
