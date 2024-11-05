@@ -90,7 +90,7 @@ const Hero = () => {
             </p>
 
             <div className="cv-and-social  hidden md:flex">
-              <a href="src/assets/recentCv.pdf" download="recentCV.pdf">
+              <a href="public/recentCv.pdf" download="recentCV.pdf">
                 <motion.div
                   className="cv flex justify-center items-center"
                   whileHover={{
