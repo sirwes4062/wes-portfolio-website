@@ -9,6 +9,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FiFramer } from "react-icons/fi";
 import { SiFortran } from "react-icons/si";
+import { DiPostgresql } from "react-icons/di";
+import { FcLinux } from "react-icons/fc";
 
 const Skills = () => {
   return (
@@ -59,13 +61,23 @@ const Skills = () => {
         </div>
 
         <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
-          <FiFramer className="framer-font w-14 h-14   mb-8" />
+          <FiFramer className="framer-font w-14 h-14 mb-8" />
           <h1>Framer motion</h1>
         </div>
 
         <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
-          <SiFortran className="fortran-font w-14 h-14   mb-6" />
+          <SiFortran className="fortran-font w-14 h-14 mb-6" />
           <h1>Fortran</h1>
+        </div>
+
+        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
+          <DiPostgresql className="postgres-font w-20 h-20 mb-6" />
+          <h1>Postgres</h1>
+        </div>
+
+        <div className="w-40 h-40 skill-container cursor-pointer   bg-[#191217] rounded-3xl  flex flex-col  justify-center items-center">
+          <FcLinux className="linux-font w-20 h-20 mb-6" />
+          <h1>Linux</h1>
         </div>
       </div>
     </div>

@@ -126,7 +126,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="www.linkedin.com/in/salifu-williams-7b449026b"
+                  href="https://www.linkedin.com/in/salifu-williams-7b449026b"
                   target="_blank"
                   rel="noopener noreferrer">
                   <motion.div

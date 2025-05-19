@@ -13,7 +13,10 @@
 .tailwind-font,
 .framer-font,
 .bootstrap-font,
-.git-font {
+.git-font,
+.fortran-font,
+.linux-font,
+.postgres-font {
   transition: transform 0.3s ease;
 }
 
@@ -43,7 +46,16 @@
 .skill-container:hover .git-font {
   transform: scale(1.2);
 }
+.skill-container:hover .fortran-font {
+  transform: scale(1.2);
+}
 .skill-container:hover .framer-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .postgres-font {
+  transform: scale(1.2);
+}
+.skill-container:hover .linux-font {
   transform: scale(1.2);
 }
 
@@ -91,4 +103,8 @@
 
 .fortran-font {
   color: #734f96;
+}
+
+.postgres-font {
+  color: #336791;
 }

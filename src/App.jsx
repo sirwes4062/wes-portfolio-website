@@ -9,10 +9,8 @@ import Messaging from "./components/Messaging/Messaging";
 import Footer from "./components/Footer/Footer";
 import Loading from "./components/Loading/Loading.jsx";
 import { useState, useEffect } from "react";
-// import { AppContext } from "./components/AppProvider.jsx";
 
 const App = () => {
-  // const { Image } = useContext(AppContext);
   const [loading, setloading] = useState(true);
 
   useEffect(() => {
