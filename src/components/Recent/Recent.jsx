@@ -1,7 +1,7 @@
 import "./recent.css";
 import EasyBankLandingPage from "../../assets/easybank.png";
 import Ecommerce from "../../assets/ecommerce.png";
-import Projectgenius from "../../assets/Projectgenius.png";
+import Projectgenius from "../../assets/projectgenius.png";
 import CrowdFundindPage from "../../assets/crowdfunding.png";
 
 const Recent = () => {
