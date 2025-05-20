@@ -126,7 +126,7 @@ const Hero = () => {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/salifu-williams-7b449026b"
+                  href="https://www.linkedin.com/in/salifu-williams-eneojo-280130202"
                   target="_blank"
                   rel="noopener noreferrer">
                   <motion.div
@@ -234,7 +234,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="www.linkedin.com/in/salifu-williams-7b449026b"
+                href="https://www.linkedin.com/in/salifu-williams-eneojo-280130202"
                 target="_blank"
                 rel="noopener noreferrer">
                 <motion.div
